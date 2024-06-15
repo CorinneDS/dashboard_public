@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-# Titres et logo
+# Titres et logo 
+
 def render_title() -> None:
     st.set_page_config(page_title="Dashboard : scoring des candidats à un prêt", page_icon=":bar_chart:",layout="wide")
 
